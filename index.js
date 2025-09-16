@@ -110,7 +110,7 @@ async function initBrowser() {
   console.log(`Total browsers launched: ${browsers.length}`);
 }
 
-app.get("/proxy", async (req, res) => {
+app.get("/naver", async (req, res) => {
   if (!browsers || browsers.length === 0 || browsers.length < proxies.length) {
     try {
       await initBrowser();
