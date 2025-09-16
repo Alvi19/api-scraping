@@ -19,3 +19,6 @@ npm start
 ```bash
 node test-stress
 ```
+# 5. Example usage of your API
+# Setelah server berjalan, buka URL berikut:
+# http://localhost:3000/naver?url=https://example.com
