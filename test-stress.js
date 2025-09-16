@@ -2,7 +2,7 @@ import axios from "axios";
 import fs from "fs";
 
 const url =
-  "http://localhost:3000/proxy?url=https://search.shopping.naver.com/ns/v1/search/paged-composite-cards?cursor=1&pageSize=50&query=iphone&searchMethod=all.basic&isFreshCategory=false&isOriginalQuerySearch=false&isCatalogDiversifyOff=false&listPage=1&categoryIdsForPromotions=50000204&hiddenNonProductCard=true&hasMoreAd=true&hasMore=true&score=4.8%7C5";
+  "http://localhost:3000/naver?url=https://search.shopping.naver.com/ns/v1/search/paged-composite-cards?cursor=1&pageSize=50&query=iphone&searchMethod=all.basic&isFreshCategory=false&isOriginalQuerySearch=false&isCatalogDiversifyOff=false&listPage=1&categoryIdsForPromotions=50000204&hiddenNonProductCard=true&hasMoreAd=true&hasMore=true&score=4.8%7C5";
 
 const totalRequests = 1000;
 const batchSize = 50;
